@@ -1,1 +1,2 @@
 # odin-recipes
+Before I start: I just learned the basics of HTML (again). And now i'm doing this with the combination of GIT. I just cloned my folder and now I'm going to make the HTML file in it. Lets see how it goes.
