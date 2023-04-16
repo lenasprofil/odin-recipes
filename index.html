@@ -5,31 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+    <header>
+        <img src="images/Logo.png" alt="Odin Recipes Logo" class="Logo">
+        <h1>Odin Recipes</h1>
+        <nav> 
+            <a href="#top">Recommendation</a>
+            <a href="#overview">Overview</a>
+            <a href=>About Me</a>
+        </nav>
+    </header>
+        
 <body>
-    <h1>Odin Recipes</h1>
+    <h1 id="recommendation">What do you want to make today?</h1>
 
-    <hr>
-    <img src="https://media.tenor.com/R3p7QM0nPKIAAAAC/kirby-nintendo.gif" width="100" height="80">
-    <hr>
+    <div class="flex">
 
-    <h1>What do you want to make today?</h1>
+        <div class="card" id="sushibake">
 
-    <h3><a href="recipes/sushibake.html">Sushi Bake</a></h3>
-    <a href="recipes/sushibake.html"><img src="https://twoplaidaprons.com/wp-content/uploads/2023/02/side-shot-of-sushi-bake-thumbnail.jpg" alt="Sushi bake close-up" height="200"></a>
+            <a href="recipes/sushibake.html"><img class="image" src="images/sushibake.jpg" alt="Sushi bake close-up" height="200" title="Sushi Bake"></a>
+                <div class ="description">
+                    <h3><a href="recipes/sushibake.html" class="title">Sushi Bake</a></h3>
+                    <p>Sushi Bake is a trendy Japanese-inspired dish that consists of sushi rice and more.</p>
+                 </div>
+        </div>
+
+        <div class="card" id="tteokbokki">
+            <a href="recipes/tteokbokki.html"><img class="image" src="images/tteokbokki.jpg" alt="Tteokbokki in a bowl" height="200" title="Tteokbokki"> </a>
+            <div class ="description">
+                <h3><a href="recipes/tteokbokki.html"  class="title">Tteokbokki</a></h3>
+                <p>Spicy, chewy, and oh-so-addictive, tteokbokki is a beloved Korean street food made from rice cakes cooked in a fiery chili sauce.</p>
+            </div>
+        </div>
+        
+        <div class="card" id="bobotie">
+            <a href="recipes/bobotie.html"><img class="image" src="images/bobotie.jpg" alt="Bobotie in a dish" height="200" title="Bobotie"></a>
+            <div class ="description">
+                <h3><a href="recipes/bobotie.html" class="title">Bobotie</a></h3>
+                <p>A fusion of sweet and savory flavors, Bobotie is a beloved South African dish made with spiced ground meat and topped with custard. It's comfort food at its best!.</p>
+            </div>
+        </div>
+        <div class="quote">
+            <q cite="https://www.brainyquote.com/authors/gordon-ramsay-quotes">Cooking is about passion, so it may look slightly temperamental in a way that it's too assertive to the naked eye.</q>
+            <p>- Gordon Ramsey</p>
+        </div>
+    </div>
+   
     
-    <h3><a href="recipes/tteokbokki.html">Tteokbokki</a></h3>
-    <a href="recipes/tteokbokki.html"><img src="https://fullofplants.com/wp-content/uploads/2021/12/best-vegan-tteokbokki-with-cocktail-sausages-and-tofu-fish-korean-inspired-thumb-3.jpg" alt="Tteokbokki in a bowl" height="200"></a>
-
-    <h3><a href="recipes/bobotie.html">Bobotie</a></h3>
-    <a href="recipes/bobotie.html"><img src="https://www.foodandfriends.nl/app/uploads/2020/12/Klassiekers-Boboti-ovenbijbel.jpg" alt="Bobotie in a dish" height="200"></a>
-
-    <h2>Recipes Overview</h2>
-    <ul>
-        <li><a href="recipes/sushibake.html">Sushi Bake</a></li>
-        <li><a href="recipes/tteokbokki.html">Tteokbokki</a></li>
-        <li><a href="recipes/bobotie.html">Bobotie</a></li>
-    </ul>
     
 </body>
 </html>

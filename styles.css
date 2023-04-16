@@ -1,0 +1,113 @@
+* {
+    font-family: "Raleway", "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    margin: -10px; padding: 0px; border: 0px;
+    background-color: #ffffff;
+
+}
+
+.Logo {
+    height: 80px; width: auto;
+    clip-path: circle();
+    margin-left: 40px; margin-bottom: 10px; margin-top: 10px; margin-right: 50px;
+}
+
+header > h1 {
+    display: none;
+}
+
+nav {
+    display: inline-block;
+    align-self: center;
+    margin: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #689c54;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #a0c492;
+    align-content: center;
+}
+
+@font-face {font-family: "KG Summer Storm Smooth"; src: url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.eot"); src: url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.woff") format("woff"), url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d0d2bc17750508018a881bd92edf5b0d.svg#KG Summer Storm Smooth") format("svg"); }
+
+#recommendation {
+    font-family: "KG Summer Storm Smooth", "Copperplate", "Impact", serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #689c54;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(960px * 999 - 100% * 999);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.description {
+    padding: 0 16px;
+    position: relative;
+}
+
+.title {
+    text-decoration: none; color: #689c54;
+    
+    
+}
+
+.quote{
+    background-color: #689c54;
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    display: row;
+    flex: 50%;
+    vertical-align: middle;
+    font-size: xx-large;
+    top: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .quote {
+      flex: 0%;
+    }
+  }
+
+q {
+    font-family: "KG Summer Storm Smooth", "Copperplate", "Impact", serif;
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #689c54;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.quote > p {
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #689c54;
+    font-size: 70%px;
+
+}
+
+
