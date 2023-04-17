@@ -4,7 +4,7 @@
 
 header {
     display: flex;
-    margin: -10px; padding: 0px; border: 0px;
+    padding: 0px; border: 0px;
     background-color: #ffffff;
 
 }
@@ -47,19 +47,19 @@ nav > a:first-of-type{
 
 .hero-image {
     height: 300px;
+    max-width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-left: -1%; margin-right: -7%;
-    padding: 20px;
+    margin: auto;
 }
 
 .content {
     color: white;
     background-color: #689c54;
     border-top-left-radius: 20px; border-bottom-left-radius: 20px;
-    margin-left: 350px; 
+    margin-left: 80%; 
     padding-block: 5px; padding-right: 30px;
     position: relative;
     top: 200px;
