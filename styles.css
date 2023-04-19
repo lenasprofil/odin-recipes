@@ -57,7 +57,7 @@ body{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
+    margin-left: 20px; 
     margin-bottom: 20px;
     background-color: #ffffff;
     width: 200px;
@@ -78,13 +78,10 @@ body{
 .quote{
     background-color: #689c54;
     border-radius: 20px;
-    margin-left: 40px;
-    padding: 10px;
-    display: row;
-    flex: 50%;
-    vertical-align: middle;
-    font-size: xx-large;
-    top: 50%;
+    height: 210px; width: 210px;
+    padding: 105px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 600px) {
@@ -99,6 +96,7 @@ q {
     text-shadow: 3px 3px 4px #689c54;
     font-weight: lighter;
     text-align: center;
+    font-size: larger;
     
 }
 
