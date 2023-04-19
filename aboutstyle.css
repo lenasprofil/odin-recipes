@@ -8,7 +8,7 @@ body {
 
 header {
     display: flex;
-    padding: 0px; border: 0px;
+    padding: 0px; border: 0px; margin: -8px;
     background-color: #ffffff;
 
 }
@@ -57,18 +57,18 @@ nav > a:first-of-type{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .leno {
-    width: 400px;
+    width: 500px;
     background-color: #689c54;
 
 }
 
 .content {
     width: 70%;
-    padding-left: 20px;
+    padding: 40px; 
     background-color: #ffffff;
 }
 
